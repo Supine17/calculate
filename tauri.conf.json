@@ -1,15 +1,19 @@
 {
+  "package": {
+    "productName": "Cycle Time Calculator",
+    "version": "0.0.1"
+  },
   "tauri": {
-    "bundle": {
-      "targets": ["nsis"],
-      "identifier": "com.supine17.cycle_time_calculator",
-      "icon": ["icons/icon.ico"],
-      "active": true
-    },
     "windows": {
       "title": "Cycle Time Calculator",
       "width": 800,
       "height": 600
+    },
+    "bundle": {
+      "active": true,
+      "targets": ["nsis"],
+      "identifier": "com.supine17.cycle_time_calculator",
+      "icon": ["icons/icon.ico"]
     },
     "build": {
       "beforeBuildCommand": "",
